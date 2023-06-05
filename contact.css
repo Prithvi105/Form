@@ -1,0 +1,56 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.container{
+    background-color: antiquewhite;
+    padding: 5px 20px 15px 20px;
+    border: 2px solid brown;
+    border-radius: 12px;
+  
+
+}
+
+body{
+    font-family: cursive;
+    width: 500px; height: 500px;
+    margin:25px 500px;
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+
+textarea{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid burlywood;
+    border-radius: 8px;
+    margin: 4px;
+}
+
+.main_heading{
+    text-align: center;
+  
+}
+
+.para{
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+input[type="submit"]{
+    background-color:grey;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 20px;
+    font-size: medium;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover{
+    background-color:rgb(142, 94, 30);
+}
